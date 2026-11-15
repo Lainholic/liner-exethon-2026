@@ -1,0 +1,43 @@
+# Secrets & Environment (Never commit to Git)
+.env
+*.env
+*.key
+*.token
+secrets.toml
+
+# Python cache & venv
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Streamlit secrets (keep config.toml for Cloud deployment)
+.streamlit/secrets.toml
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+_work/
+
+# Media & Video Artifacts
+_video/
+*.mp4
+*.webm
+*.wav
+*.zip
+
+# Internal Reports & Work Orders (Keep local only)
+_reports/
+AGENTS.md
+docs/작업지시서_*.md
+docs/WORK_ORDER.md
