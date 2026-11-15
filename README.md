@@ -100,8 +100,7 @@ liner_exethon_2026/
 ├── data/
 │   └── postings.db         # 정제 완료 채용공고 SQLite DB (클론 즉시 실행 지원)
 ├── docs/
-│   ├── DEMO_VIDEO_SCRIPT.md # 5분 시연 영상 구성 및 대본
-│   └── WORK_ORDER.md       # 단계별 개발·제출 작업지시서
+│   └── DEMO_VIDEO_SCRIPT.md # 5분 시연 영상 구성 및 대본
 ├── .kiro/specs/careerpath-agent/
 │   ├── requirements.md     # Kiro 요구사항 명세서 (EARS 형식, 법률 준수 게이트)
 │   ├── design.md           # Kiro 아키텍처 및 데이터 모델 명세서
